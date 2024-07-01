@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+.container {
+    text-align: center;
+}
+
+.login-box {
+    width: 300px;
+    padding: 20px;
+    background-color: #fbfae2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    display: block;
+}
+
+#result {
+    margin-top: 10px;
+}
+
+.credit {
+    color: rgb(108, 105, 105);
+    font-size: 0.7em;
+    display: block;
+}
