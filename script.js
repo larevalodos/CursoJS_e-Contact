@@ -51,8 +51,14 @@ function showError(input, errorElement, message) {
 }
 
 // Función para mostrar resultado
-function showResult(message, color) {
-    resultDiv.textContent = message;
+/*function showResult(message, color) {
+    resultDiv.textContent = message
+    resultDiv.style.color = color
+}*/
+
+// Función para mostrar resultado@flecha
+const showResult=(message, color) => {
+    resultDiv.textContent = message
     resultDiv.style.color = color
 }
 
